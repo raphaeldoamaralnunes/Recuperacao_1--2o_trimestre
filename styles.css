@@ -1,0 +1,31 @@
+header{ 
+    margin: 1cm;
+    padding: 10px;
+    background-color: #dadada;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#frase{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    font-style: italic;
+    background-color: #a8a8a8;
+}
+
+#autor{
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    font-size: 16px;
+    margin: 1cm;
+    padding: 30px;
+    background-color: #808080;
+}
