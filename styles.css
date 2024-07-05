@@ -1,31 +1,29 @@
-header{ 
-    margin: 1cm;
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: #353535;
+}
+
+header{
     padding: 10px;
-    background-color: #dadada;
+    background-color: #e0e0e0;
 }
 
 main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
+    padding: 30px;
+    background-color: #b2b2b2;
 }
 
 #frase{
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    font-size: 32px;
     font-style: italic;
-    background-color: #a8a8a8;
+    font-size: 32px;
 }
 
 #autor{
-    justify-content: center;
-    align-items: center;
     text-align: end;
     font-size: 16px;
-    margin: 1cm;
-    padding: 30px;
-    background-color: #808080;
 }
